@@ -5,10 +5,11 @@ public class SumOfDigit {
         Scanner input=new  Scanner(System.in);
         System.out.print("Enter a Number: ");
         int sum=0,digit,number=input.nextInt();
-        while(number!=0){
-            digit=number%10;
+        int Cnumber=number;
+        while(Cnumber!=0){
+            digit=Cnumber%10;
             sum+=digit;
-            number=number/10;
+            Cnumber=Cnumber/10;
         }
         System.out.println("The sum of the Digits of number="+sum);
         input.close();
