@@ -26,6 +26,7 @@ public class ArrayListMethod3 {
         System.out.println(numbers);
         //2.Descending order
         Collections.sort(numbers,Collections.reverseOrder());
+        System.out.println(numbers);
         input.close();
     }
 }
